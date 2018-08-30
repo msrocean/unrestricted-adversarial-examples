@@ -30,8 +30,8 @@ def show(img):
 
 
 with tf.Session() as sess:
-  mnist_model = mnist_model.Model("models/adversarial_bs=256/", sess)
-  #mnist_model = mnist_model.Model("models/clean/", sess)
+  #mnist_model = mnist_model.Model("models/adversarial_bs=256/", sess)
+  mnist_model = mnist_model.Model("models/clean/", sess)
   tcu_model = tcu_model.TCUWrapper(mnist_model)
 
   def iterator():
