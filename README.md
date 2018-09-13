@@ -113,7 +113,7 @@ We have a growing [FAQ for the warm-up phase](warmup_faq.md). If you have additi
 
 ## Contest phase
 
-The contest phase will begin after the warm-up attacks have been conclusively solved. We have published the [contest proposal](https://github.com/google/unrestricted-adversarial-examples/blob/master/contest_proposal.md) and are soliciting feedback from the community.
+The contest phase will begin after the warm-up attacks have been conclusively solved. We have published the [contest proposal](contest_proposal.md) and are soliciting feedback from the community.
 
 ## Running tests
 
@@ -122,3 +122,11 @@ pytest
 ```
 
 ## Authors
+Contributors to this project include
+
+  * Tom B. Brown
+  * Nicholas Carlini
+  * Chiyuan Zhang
+  * Catherine Olsson
+  * Paul Christiano
+  * Ian Goodfellow
